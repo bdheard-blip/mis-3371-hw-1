@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+    Name: Branch Heard
+    Date created:2/26/26
+    Date Last updated:2/27/26
+    Purpose: TP HW 1 HTML form
+-->
+<html lang="en">
+    <head> 
+        <link rel="stylesheet" href="homework1.css" <!-- link to the css file -->
+        
+        <!-- will display the text in the browser tab-->
+        <title>Patient Registration | DireWolf Clinic</title>
+    </head>
+    <body> 
+        <header> 
+            <table width="100%>
+            <tr> 
+                <td valign="top" align="left" width="20%">
+                    <div class="image">
+                        <img align="center" src="cliniclogo1.png" alt="DireWolf Clinic logo"  width="70px" id="logo">
+                    </div>
+                </td>
+
+                <td> 
+                    <h2>DireWolf Clinic </h2>
+                </td>
+ 
+                <td valign="bottom" align="right" width="20%">
+                    Today's Date:<span id="today"></span>
+                </td>
+
+            <tr> 
+            </table> 
+        </header>
+    </body>
+</html>
